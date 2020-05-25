@@ -1,4 +1,4 @@
-package learning.datastructure;
+package com.ohcharming.learning.datastructure;
 
 public class StaticLinkList {
 
