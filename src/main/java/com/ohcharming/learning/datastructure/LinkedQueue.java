@@ -1,6 +1,6 @@
-package learning.datastructure;
+package com.ohcharming.learning.datastructure;
 
-public class LinkQueue {
+public class LinkedQueue {
 	   class DataNode{
 		   int data;
 		   DataNode next;
@@ -8,7 +8,7 @@ public class LinkQueue {
 	   private DataNode front;
 	   private DataNode rear;
 	   
-	   public LinkQueue() {
+	   public LinkedQueue() {
 		   front= new DataNode();
 		   front.next=null;
 		   rear=new DataNode();
@@ -55,7 +55,7 @@ public class LinkQueue {
 		   public static void main(String args[]) {
 		   
 		   try {
-			   LinkQueue queue=new LinkQueue();
+			   LinkedQueue queue=new LinkedQueue();
 			   queue.enQueue(1);
 			   queue.enQueue(2);
 			   queue.enQueue(3);

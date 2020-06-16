@@ -1,6 +1,6 @@
-package learning.datastructure;
+package com.ohcharming.learning.datastructure;
 
-public class Digui {
+public class RecursionCount {
 	
 	static int count(int n) {
 		if(n>0) {

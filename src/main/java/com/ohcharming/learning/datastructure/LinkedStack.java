@@ -1,7 +1,7 @@
 package learning.datastructure;
 
 
-public class LinkStack {
+public class LinkedStack {
 	private Node top;
 	private int size;
 	
@@ -37,23 +37,23 @@ public class LinkStack {
 	}
 	
 	public static void main(String[] args) {
-		LinkStack linkStack = new LinkStack();
-		linkStack.push(1);
-		linkStack.push(2);
-		linkStack.push(3);
-		linkStack.push(4);
-		linkStack.push(5);
-		linkStack.push(6);
+		learning.datastructure.LinkedStack linkedStack = new learning.datastructure.LinkedStack();
+		linkedStack.push(1);
+		linkedStack.push(2);
+		linkedStack.push(3);
+		linkedStack.push(4);
+		linkedStack.push(5);
+		linkedStack.push(6);
 	
-		System.out.println(linkStack.length());
+		System.out.println(linkedStack.length());
 		
 	
 		
 	
-		System.out.println(linkStack.pop());
-		System.out.println(linkStack.pop());
-		System.out.println(linkStack.pop());
-		System.out.println(linkStack.pop());
+		System.out.println(linkedStack.pop());
+		System.out.println(linkedStack.pop());
+		System.out.println(linkedStack.pop());
+		System.out.println(linkedStack.pop());
 		
 		
 		
