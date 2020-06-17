@@ -41,7 +41,7 @@ public int pop()
 {   //如果队为空 返回0
     if(isEmpty())
     {
-        return 0;//return 0 是不对的。和返回值有冲突，需要考虑如何处理
+       System.out.println("栈空，出栈失败");//return 0 是不对的。和返回值有冲突，需要考虑如何处理
     }
     //获得当前数据
     int x = data[front];
